@@ -37,9 +37,9 @@ header h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 header img {
-  width: 100px; /* Adjust the width as needed */
-  height: auto; /* Maintain aspect ratio */
-  margin-bottom: 10px; /* Optional margin for spacing */
+  width: 100px; 
+  height: auto; 
+  margin-bottom: 10px; 
   border-radius: 15px;
 }
 section {

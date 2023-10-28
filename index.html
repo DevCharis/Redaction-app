@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevCharis Redaction App</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/images/bg.png" alt="" class="image">
+      <h1>Text Redaction App by DevCharis</h1>
+    </header>
+    <div class="container">
+      <textarea id="originalText" placeholder="Enter your text here"></textarea>
+      <div id="charCount">Character Count: 0</div>
+      <input
+        type="text"
+        id="wordsToRedact"
+        placeholder="Words to Redact (separated by spaces)"
+      />
+      <input
+        type="text"
+        id="replacementText"
+        placeholder="Replacement Text (e.g., ****) or leave empty for asterix(*)"
+      />
+      <button id="clearButton">Clear</button>
+      <button id="redactButton">Redact Now</button>
+      <div class="statsAndText">
+        <div id="redactedText"></div>
+        <div id="stats"></div>
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2023 DevCharis</p>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

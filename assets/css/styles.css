@@ -1,0 +1,113 @@
+body {
+  background: url('/assets/images/bg.png')center/cover no-repeat rgba(0, 0, 0, 0.8);;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 97vh;
+}
+
+.container {
+  position: center;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #131212dc;
+  border-radius: 15px;
+  flex: 1;
+  box-shadow: 5px -3px #394263b3;
+  transition: all 0.3s ease;
+}
+
+header {
+  background-color: #0050d1d1;
+  color: #090909;
+  text-align: center;
+  box-shadow: 3px 2px 3px #3753a7;
+  border-radius: 15px;
+  padding: 1rem;
+  transition: all 0.3s ease;
+  display: flex;
+}
+
+header h1 {
+  font-size: 30px;
+  margin: 0;
+  transition: font-size 0.3s ease;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+header img {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 10px; /* Optional margin for spacing */
+  border-radius: 15px;
+}
+section {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+textarea,
+input[type="text"],
+button {
+  width: 97%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+}
+
+button {
+  background-color: #0066d3;
+  cursor: pointer;
+  position: center;
+  border: none;
+  box-shadow: #0066d3;
+  padding: 2%;
+  transition: all 0.3s ease;
+}
+
+#redactedText,
+#stats {
+  background-color: #110e0ed1;
+  color: #fff;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.statsAndText {
+  position: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #111;
+  border-radius: 15px;
+  font-weight: bold;
+}
+footer {
+  color: #050505;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #0050d1d1;
+  font-size: larger;
+  box-shadow: -2px -3px #3753a7;
+  text-align: center;
+  padding: 0.5rem;
+  transition: all 0.3s ease;
+}
+footer p {
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#charCount {
+  color: rgb(248, 243, 243);
+  font-size: 14px;
+  background-color: #111;
+  padding-left: 75%;
+  text-align: right;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
